@@ -40,7 +40,7 @@
 								foreach (self::$gender as $_genderKey => $_genderValue) {
 								?>
 								<div class="form-check-inline">
-									<label class="form-check-label" for="male"><input class="form-check-input" type="radio" name="gender" value = "<?php echo $_genderKey; ?>" <?php echo $student['gender'] === $_genderKey ? 'checked' : ''; ?> required ><?php echo $_genderValue; ?></label>
+									<label class="form-check-label" for="<?php echo $_genderValue; ?>" ><input id="<?php echo $_genderValue; ?>" class="form-check-input" type="radio" name="gender" value = "<?php echo $_genderKey; ?>" <?php echo $student['gender'] === $_genderKey ? 'checked' : ''; ?> required ><?php echo $_genderValue; ?></label>
 								</div>
 								<?php
 							}
