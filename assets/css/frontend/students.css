@@ -1,0 +1,27 @@
+/*==================================================
+  student CSS
+  ==================================================*/
+
+.student-wrap{
+    margin-top:20px;
+    padding:20px;
+    border-radius: 5px;
+    background:#FAFAFA;
+}
+
+.student-parent .student-child{
+  padding: 20px 0;
+  border-top: 1px solid #d7d1d1;
+  /* border-bottom: 1px solid #f1f2f2; */
+}
+
+img.profile-photo-lg{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.wrap.student-wrap {
+    height: 500px;
+    overflow-y: auto;
+}
