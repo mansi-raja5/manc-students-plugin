@@ -16,5 +16,14 @@ Deactivating Plugin will delete all student data from database.
 4. Remove data from db when delete plugin not activation.
 
 # screenshots
+1. Student list at admin side:
+https://www.screencast.com/t/GJqaKqt8RJ
 
-https://user-images.githubusercontent.com/25508242/107039351-d09b2e00-67e3-11eb-9f5d-8df4baa08304.png
+2. Student form for add/edit:
+https://www.screencast.com/t/t9nx6rxMghdE
+
+3. Shortcode output:
+https://www.screencast.com/t/lQP33EiFiep7
+
+# Video
+https://www.screencast.com/t/P3FQJ6IP
